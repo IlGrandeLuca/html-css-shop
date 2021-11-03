@@ -1,0 +1,24 @@
+* {
+    box-sizing:border-box;
+}
+
+.apple-item {
+    display:inline-block;
+    position:relative;
+}
+
+.row {
+
+}
+
+.board {
+
+}
+
+img {
+    /* position:absolute; */
+}
+
+span {
+    position:absolute;
+}
