@@ -1,10 +1,33 @@
 * {
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 .apple-item {
-    display:inline-block;
-    position:relative;
+    display: inline-block;
+    position: relative;
+}
+
+.apple-item > .discount{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgb(0, 128, 0);
+}
+
+.apple-item > .span-color:nth-child(2) {
+    background-color: rgb(255, 0, 0);
+}
+
+.apple-item > img {
+    /* position: relative; */
+}
+
+.love {
+    color:rgb(255, 0, 0);
+    position: absolute;
+    bottom: 0;
+    right: 50%;
 }
 
 .row {
@@ -13,12 +36,4 @@
 
 .board {
 
-}
-
-img {
-    /* position:absolute; */
-}
-
-span {
-    position:absolute;
 }
