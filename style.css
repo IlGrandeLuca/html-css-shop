@@ -19,15 +19,21 @@
     background-color: rgb(255, 0, 0);
 }
 
-.apple-item > img {
-    /* position: relative; */
-}
+/* .apple-item > img {
+    position: relative;
+} */
 
 .love {
-    color:rgb(255, 0, 0);
+    display: none;
     position: absolute;
     bottom: 0;
     right: 50%;
+    z-index: 2;
+}
+
+.apple-item:hover > .love{
+    display: block;
+    color:rgb(255, 0, 0);
 }
 
 .row {
