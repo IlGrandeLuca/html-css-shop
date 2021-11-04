@@ -29,18 +29,22 @@
 }
 
 .love {
-    display: none;
+    display: transparent;
+    color:rgb(255, 0, 0);
     position: absolute;
     bottom: 0;
     right: 50%;
     z-index: 2;
     padding-bottom: 20px;
+    opacity: 0.0;
+    transition: 0.3s;
 }
 
 /* this show hidden item */
 .apple-item:hover > .love{
-    display: block;
-    color:rgb(255, 0, 0);
+    /* display: block; */
+    opacity: 1.0;
+
 }
 
 /* .board {
